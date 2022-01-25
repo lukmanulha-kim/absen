@@ -1,5 +1,5 @@
 <?php
-class absensi_models extends CI_Model {
+class Absensi_models extends CI_Model {
 	public function queryAll($tb_name){
 		$q = $this->db->get($tb_name);
 		return $q;

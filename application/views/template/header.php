@@ -60,7 +60,7 @@
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('konfigurasi') ?>">
+        <a class="nav-link" href="<?php echo base_url('index.php/konfigurasi') ?>">
           <i class="fas fa-fw fa-cog"></i>
           <span>Konfigurasi</span></a>
       </li>
@@ -81,24 +81,24 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="<?php echo base_url('kelas') ?>">Kelas</a>
-            <a class="collapse-item" href="<?php echo base_url('siswa') ?>">Siswa</a>
-            <a class="collapse-item" href="<?php echo base_url('mapel') ?>">Mapel</a>
-            <a class="collapse-item" href="<?php echo base_url('guru') ?>">Guru</a>
+            <a class="collapse-item" href="<?php echo base_url('index.php/kelas') ?>">Kelas</a>
+            <a class="collapse-item" href="<?php echo base_url('index.php/siswa') ?>">Siswa</a>
+            <a class="collapse-item" href="<?php echo base_url('index.php/mapel') ?>">Mapel</a>
+            <a class="collapse-item" href="<?php echo base_url('index.php/guru') ?>">Guru</a>
           </div>
         </div>
       </li>
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('rombel') ?>">
+        <a class="nav-link" href="<?php echo base_url('index.php/rombel') ?>">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Atur Rombel</span></a>
       </li>
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('mengajar') ?>">
+        <a class="nav-link" href="<?php echo base_url('index.php/mengajar') ?>">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Atur Mengajar</span></a>
       </li>
@@ -113,7 +113,7 @@
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('kehadiran') ?>">
+        <a class="nav-link" href="<?php echo base_url('index.php/kehadiran') ?>">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Kehadiran</span></a>
       </li>
@@ -138,7 +138,7 @@
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('kehadiran') ?>">
+        <a class="nav-link" href="<?php echo base_url('index.php/kehadiran') ?>">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Kehadiran</span></a>
       </li>
@@ -147,7 +147,7 @@
       <hr class="sidebar-divider d-none d-md-block">
 
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('login/logout') ?>">
+        <a class="nav-link" href="<?php echo base_url('index.php/login/logout') ?>">
           <i class="fas fa-fw fa-sign-out-alt"></i>
           <span>Keluar</span></a>
       </li>
@@ -199,12 +199,12 @@
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="<?php echo base_url() ?>guru/edgur/<?php echo encrypt_url($this->session->userdata['id_user']) ?>">
+                <a class="dropdown-item" href="<?php echo base_url('index.php/') ?>guru/edgur/<?php echo encrypt_url($this->session->userdata['id_user']) ?>">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                   Profile
                 </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                <a class="dropdown-item" href="<?php echo base_url('index.php/') ?>login/logout" data-toggle="modal" data-target="#logoutModal">
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                   Logout
                 </a>

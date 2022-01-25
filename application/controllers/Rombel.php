@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class rombel extends CI_Controller {
+class Rombel extends CI_Controller {
 	public function index(){
 		if ($this->session->userdata("uname")=="") {
 				redirect("login");

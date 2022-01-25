@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class siswa extends CI_Controller {
+class Siswa extends CI_Controller {
 	private $filename = "import_data_siswa";
 	public function index(){
 		if ($this->session->userdata("uname")=="") {

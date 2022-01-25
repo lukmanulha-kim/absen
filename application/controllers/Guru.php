@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class guru extends CI_Controller {
+class Guru extends CI_Controller {
 	private $filename = "import_data_guru";
 	public function index(){
 		$data['semester'] = $this->absensi_models->whereQuery('tb_komponen','status','Aktif')->row();

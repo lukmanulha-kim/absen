@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class kehadiran extends CI_Controller {
+class Kehadiran extends CI_Controller {
 	public function index(){
 		if ($this->session->userdata("uname")=="") {
 				redirect("login");

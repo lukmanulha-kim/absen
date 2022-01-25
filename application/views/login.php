@@ -36,7 +36,7 @@
               <div class="text-center">
                 <h1 class="h4 text-gray-900 mb-4">Selamat Datang!</h1>
               </div>
-              <form class="user" action="<?php echo base_url('login/cek') ?>" method="post">
+              <form class="user" action="<?php echo base_url('index.php/login/cek') ?>" method="post">
                 <div class="form-group">
                   <input type="text" class="form-control form-control-user" name="i_user" placeholder="Username" autofocus>
                 </div>
