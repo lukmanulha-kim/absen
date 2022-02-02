@@ -52,7 +52,7 @@
 		                      <td><?php echo $data_mengajar->nama_guru; ?></td>
 		                      <td><?php echo $data_mengajar->nama_kelas; ?></td>
 		                      <td><?php echo $data_mengajar->nama_mapel; ?></td>
-		                      <td style="text-align: center;"><a href="<?php echo base_url()?>mengajar/edit/<?php echo  encrypt_url($data_mengajar->id_penugasan); ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a></td>
+		                      <td style="text-align: center;"><a href="<?php echo base_url()?>index.php/mengajar/edit/<?php echo  encrypt_url($data_mengajar->id_penugasan); ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a></td>
 		                    </tr>
 		                	<?php } ?>
 		                  </tbody>

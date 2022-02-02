@@ -6,7 +6,7 @@
           <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
               <h6 class="m-0 font-weight-bold text-primary">Rombel</h6>
-              <a href="<?php echo base_url('rombel/tambah')?>" class="btn btn-sm btn-primary float-right"> <i class="fas fa-plus"></i> Tambah Data</a>
+              <a href="<?php echo base_url('index.php/rombel/tambah')?>" class="btn btn-sm btn-primary float-right"> <i class="fas fa-plus"></i> Tambah Data</a>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -38,8 +38,8 @@
                       <td><?php echo $data_rombel->status; ?></td>
                       <td>
                         <center>
-                          <a href="<?php echo base_url() ?>rombel/edit/<?php echo encrypt_url($data_rombel->id_rombel) ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a> 
-                          <a href="<?php echo base_url() ?>rombel/hapus/<?php echo encrypt_url($data_rombel->id_rombel) ?>" title="Hapus" class="btn btn-sm btn-danger" onclick="return confirm('Yakin Mau Menghapus?')"><i class="fas fa-trash"></i> Hapus</a>
+                          <a href="<?php echo base_url() ?>index.php/rombel/edit/<?php echo encrypt_url($data_rombel->id_rombel) ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a> 
+                          <a href="<?php echo base_url() ?>index.php/rombel/hapus/<?php echo encrypt_url($data_rombel->id_rombel) ?>" title="Hapus" class="btn btn-sm btn-danger" onclick="return confirm('Yakin Mau Menghapus?')"><i class="fas fa-trash"></i> Hapus</a>
                         </center>
                       </td>
                     </tr>

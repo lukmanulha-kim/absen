@@ -49,7 +49,7 @@
 		                      <td style="text-align: center;"><?php echo $no++ ?></td>
 		                      <td><?php echo $data_mapel->nama_mapel; ?></td>
 		                      <td><?php echo $data_mapel->status; ?></td>
-		                      <td style="text-align: center;"><a href="<?php echo base_url()?>mapel/edit/<?php echo  encrypt_url($data_mapel->id_mapel); ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a></td>
+		                      <td style="text-align: center;"><a href="<?php echo base_url()?>index.php/mapel/edit/<?php echo  encrypt_url($data_mapel->id_mapel); ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a></td>
 		                    </tr>
 		                	<?php } ?>
 		                  </tbody>
@@ -81,7 +81,7 @@
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-                  <form action="<?php echo base_url('mapel/add') ?>" method="post" accept-charset="utf-8">
+                  <form action="<?php echo base_url('index.php/mapel/add') ?>" method="post" accept-charset="utf-8">
 	                <div class="form-group">
 	                  <input type="text" name="i_namamapel" placeholder="Nama Mapel" class="form-control">
 	                </div>

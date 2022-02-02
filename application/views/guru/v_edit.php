@@ -9,7 +9,7 @@
             <div class="card-body">
               <div class="row">
               	<div class="col-md-6">
-	              <form action="<?php echo base_url('guru/update') ?>" method="post" accept-charset="utf-8">
+	              <form action="<?php echo base_url('index.php/guru/update') ?>" method="post" accept-charset="utf-8">
 	              	<div class="form-group">
 	                  <b>Status guru</b><br>
 	                  <input type="radio" name="i_status" value="Aktif" <?php if($detail->status=='Aktif'){echo 'checked';} ?> id="aktif"><label for="aktif">&nbsp;Aktif</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

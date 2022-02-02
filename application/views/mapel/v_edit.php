@@ -7,7 +7,7 @@
               <h6 class="m-0 font-weight-bold text-primary">Edit Data</h6>
             </div>
             <div class="card-body">
-              <form action="<?php echo base_url('mapel/update') ?>" method="post" accept-charset="utf-8">
+              <form action="<?php echo base_url('index.php/mapel/update') ?>" method="post" accept-charset="utf-8">
                 <div class="form-group" hidden>
                   <input type="text" name="i_id" value="<?php echo $detail->id_mapel ?>" class="form-control">
                 </div>

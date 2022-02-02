@@ -7,7 +7,7 @@
               <h6 class="m-0 font-weight-bold text-primary">Konfigurasi </h6>
             </div>
             <div class="card-body">
-              <form action="<?php echo base_url('konfigurasi/add') ?>" method="post" accept-charset="utf-8">
+              <form action="<?php echo base_url('index.php/konfigurasi/add') ?>" method="post" accept-charset="utf-8">
                 <div class="form-group">
                   <select name="i_semester" class="form-control">
                     <option value="Ganjil">Ganjil</option>

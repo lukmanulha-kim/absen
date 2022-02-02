@@ -5,12 +5,12 @@
           <div class="card shadow mb-4 border-bottom-primary">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
               <h6 class="m-0 font-weight-bold text-primary">Tambah Data</h6>
-              <a href="<?php echo base_url('siswa/upload')?>" class="btn btn-sm btn-primary float-right"> <i class="fas fa-upload"></i> Upload Data</a>
+              <a href="<?php echo base_url('index.php/siswa/upload')?>" class="btn btn-sm btn-primary float-right"> <i class="fas fa-upload"></i> Upload Data</a>
             </div>
             <div class="card-body">
               <div class="row">
               	<div class="col-md-6">
-	              <form action="<?php echo base_url('siswa/add') ?>" method="post" accept-charset="utf-8">
+	              <form action="<?php echo base_url('index.php/siswa/add') ?>" method="post" accept-charset="utf-8">
 	                <div class="form-group">
 	                  <b>NIS</b>
 	                  <input type="text" name="i_nis" placeholder="No Induk Siswa" class="form-control" autofocus>

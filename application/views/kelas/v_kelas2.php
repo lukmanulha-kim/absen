@@ -49,7 +49,7 @@
 		                      <td style="text-align: center;"><?php echo $no++ ?></td>
 		                      <td><?php echo $data_kelas->nama_kelas; ?></td>
 		                      <td><?php echo $data_kelas->status; ?></td>
-		                      <td style="text-align: center;"><a href="<?php echo base_url()?>kelas/edit/<?php echo  encrypt_url($data_kelas->id_kelas); ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a></td>
+		                      <td style="text-align: center;"><a href="<?php echo base_url()?>index.php/kelas/edit/<?php echo  encrypt_url($data_kelas->id_kelas); ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a></td>
 		                    </tr>
 		                	<?php } ?>
 		                  </tbody>
@@ -81,7 +81,7 @@
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
-                  <form action="<?php echo base_url('kelas/add') ?>" method="post" accept-charset="utf-8">
+                  <form action="<?php echo base_url('index.php/kelas/add') ?>" method="post" accept-charset="utf-8">
 	                <div class="form-group">
 	                  <input type="text" name="i_namakelas" placeholder="Nama Kelas" class="form-control">
 	                </div>

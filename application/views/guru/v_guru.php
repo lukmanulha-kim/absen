@@ -6,7 +6,7 @@
           <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
               <h6 class="m-0 font-weight-bold text-primary">Guru</h6>
-              <a href="<?php echo base_url('guru/tambah')?>" class="btn btn-sm btn-primary float-right"> <i class="fas fa-plus"></i> Tambah Data</a>
+              <a href="<?php echo base_url('index.php/guru/tambah')?>" class="btn btn-sm btn-primary float-right"> <i class="fas fa-plus"></i> Tambah Data</a>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -45,7 +45,7 @@
                       <td><?php echo $data_guru->alamat; ?></td>
                       <td><?php echo $data_guru->tpt_lahir.', '.guru::tglIndo($data_guru->tgl_lahir); ?></td>
                       <td><?php echo $data_guru->status; ?></td>
-                      <td><a href="<?php echo base_url() ?>guru/edit/<?php echo encrypt_url($data_guru->nip) ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a></td>
+                      <td><a href="<?php echo base_url('index.php/') ?>guru/edit/<?php echo encrypt_url($data_guru->nip) ?>" title="Edit" class="btn btn-sm btn-warning"><i class="fas fa-edit"></i> Edit</a></td>
                     </tr>
                 	<?php } ?>
                   </tbody>

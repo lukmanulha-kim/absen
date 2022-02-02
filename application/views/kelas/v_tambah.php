@@ -7,7 +7,7 @@
               <h6 class="m-0 font-weight-bold text-primary">Tambah Data</h6>
             </div>
             <div class="card-body">
-              <form action="<?php echo base_url('kelas/add') ?>" method="post" accept-charset="utf-8">
+              <form action="<?php echo base_url('index.php/kelas/add') ?>" method="post" accept-charset="utf-8">
                 <div class="form-group">
                   <input type="text" name="i_namakelas" placeholder="Nama Kelas" class="form-control">
                 </div>

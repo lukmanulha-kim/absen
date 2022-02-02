@@ -7,7 +7,7 @@
               <h6 class="m-0 font-weight-bold text-primary">Edit Data</h6>
             </div>
             <div class="card-body">
-              <form action="<?php echo base_url('rombel/update') ?>" method="post" accept-charset="utf-8">
+              <form action="<?php echo base_url('index.php/rombel/update') ?>" method="post" accept-charset="utf-8">
                 <div class="form-group" hidden>
                   <b>Nama Rombel</b>
                   <input type="text" name="i_id" value="<?php echo $detail_kelas->id_kelas ?>" class="form-control" readonly>
